@@ -1,0 +1,13 @@
+{
+  "name": "intelsight-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Website da Intelsight — inteligência de mercado em Moçambique",
+  "type": "module",
+  "scripts": {
+    "build": "node build/build.mjs",
+    "serve": "node build/serve.mjs",
+    "dev": "node build/build.mjs && node build/serve.mjs"
+  },
+  "engines": { "node": ">=18" }
+}
